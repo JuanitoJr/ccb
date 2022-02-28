@@ -1,0 +1,320 @@
+
+body {
+	margin:  0;
+	padding:  0;
+	box-sizing:  border-box;
+	background-color: #D6D1CD;
+}
+
+h1 {
+	font-size: 80px;
+	font-family:Dancing Script;
+	text-align: center;
+	color:#E1F2FE;
+	border: solid 15px #5299D3;
+	background-color: #90C2E7;
+}
+
+h2 {
+	font-size: 52px;
+	font-family: Dancing Script;
+}
+
+h3 {
+	font-size: 48px;
+	font-family: Dancing Script;
+}
+
+p {
+	font-size: 34px;
+	font-family: Dancing Script;
+}
+
+.logo{
+	height: 250px;
+	width: 250px;
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+header ul{
+	list-style-type: none;
+}
+
+header li{
+	font-size: 30px;
+	font-family: Dancing Script;
+}
+
+header a{
+	background-color: #5299D3;
+	color:#E1F2FE;
+}
+
+.socials{
+	display: flex;
+	padding: 25px 5%;
+	align-items: center;
+	justify-content: space-between;
+	background-color:#98D2EB;
+}
+
+.socials_names p{
+	color: #E1F2FE;
+}
+
+section{
+	flex-direction: column;
+	justify-content: center;
+	
+}
+
+.squares2{
+	display: flex;
+	justify-content: start;
+}
+
+.home-main {
+	display: flex;
+	justify-content: space-between;
+}
+
+.home-main img{
+	width:  40%;
+	border: solid 15px #98D2EB;
+	display: flex;
+}
+
+.squares{
+	display: flex;
+	justify-content:center;
+}
+
+.squares p{
+	color: #E1F2FE;
+}
+
+.squares2 p{
+	color: #E1F2FE;
+}
+
+.squares3 p{
+	color: #E1F2FE;
+}
+
+.hours-content {
+	display: flex;
+	padding: 25px 5%;
+	color: #E1F2FE;
+}
+
+.squares3{
+	display: flex;
+	justify-content: end;
+
+}
+
+.squares3 img{
+	border: solid 15px #5299D3;
+	width: 16%;
+	display: flex;
+}
+
+.squares2 img{
+	border: solid 15px #5299D3;
+	width: 20%;
+	display: flex;
+}
+
+.squares p{
+	text-align: center;
+	background-color: #98D2EB;
+}
+
+.squares2 ul{
+	background-color: #98D2EB;
+}
+
+.squares2 li{
+	background-color: #98D2EB;
+	font-size: 30px;
+	font-family: Dancing Script;
+	display: flex;
+	color: #E1F2FE;
+}
+
+.squares3 p{
+	justify-content: space-between;
+	text-align:center;
+	background-color: #98D2EB;
+}
+
+.drinks{
+	display: flex;
+	justify-content: start;
+}
+
+.drinks img{
+	width: 20%;
+	height: 20%;
+	border: solid 15px #98D2EB;
+}
+.drinks p{
+	color: #3590F3;
+	padding-right: 10%;
+}
+
+.drinks ul{
+	flex-direction: row;
+	background-color: #98D2EB;
+	list-style-type: none;
+	text-align: center;
+	border: solid 15px #5299D3;
+}
+
+.drinks li{
+	font-size: 30px;
+	font-family: Dancing Script;
+	flex-direction:row;
+	color:#E1F2FE;
+	padding: 10%;
+	padding-right: 25%;
+}
+
+.iceddrinks ul{
+	font-size: 30px;
+	font-family: Dancing Script;
+	background-color: #98D2EB;
+	list-style-type: none;
+	text-align: center;
+	border: solid 15px #5299D3;
+}
+
+.iceddrinks li{
+	font-size: 30px;
+	font-family: Dancing Script;
+	color:#E1F2FE;
+	padding: 10%;
+	padding-right: 25%;
+}
+
+.iceddrinks img{
+	width: 20%;
+	height: 20%;
+	border: solid 15px #5299D3;
+}
+
+.iceddrinks p{
+	color:#3590F3;
+	padding-right: 10%;
+}
+
+.iceddrinks{
+	display: flex;
+	justify-content: start;
+}
+
+.hotnready{
+	display: flex;
+	justify-content: end;
+}
+
+.hotnready p{
+	color: #3590F3;
+	padding-right: 10%;
+}
+
+.hotnready ul{
+	background-color: #98D2EB;
+	list-style-type: none;
+	border: solid 15px #5299D3;
+}
+
+.hotnready li{
+	font-size: 30px;
+	font-family: Dancing Script;
+	flex-direction:row;
+	color:#E1F2FE;
+	text-align: center;
+	padding: 10%;
+	padding-right: 25%;
+}
+
+.hotnready img{
+	width: 20%;
+	height: 20%;
+	border: solid 15px #98D2EB;
+}
+
+.specials{
+	display: flex;
+	justify-content: end;
+	align-items: center;
+}
+
+.specials ul{
+	font-size: 30px;
+	font-family: Dancing Script;
+	background-color: #98D2EB;
+	list-style-type: none;
+	border: solid 15px #5299D3;
+}
+
+.specials li{
+	font-size: 30px;
+	font-family: Dancing Script;
+	color:#E1F2FE;
+	text-align: center;
+	padding: 10%;
+	padding-right: 25%;
+}
+
+.specials p{
+	color: #3590F3;
+	padding-right: 10%;
+}
+
+.specials img{
+	width: 20%;
+	height: 20%;
+	border: solid 15px #98D2EB;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px; 
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px; 
+  resize: vertical
+}
+
+
+input[type=submit] {
+  background-color: #98D2EB;
+  color: #E1F2FE;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #E1F2FE;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #90C2E7;
+  padding: 20px;
+  color: #E1F2FE;
+  font-family: Dancing Script;
+}
